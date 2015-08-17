@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Cuddle Monster Games</title>
+        <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="/tentacle.js"></script>
+        <script src="/effect.js"></script>
+        <style>
+            html, body {
+                font-family: Roboto, sans-serif;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                background: #00DDCB;
+                text-align: center;
+                color: #4A5F6D;
+            }
+
+            a {
+                color: #85EFE6;
+                text-decoration: none;
+            }
+
+            #c {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+            }
+
+            #logo { position: absolute; z-index: 10;  }
+
+            .message {
+                position: absolute;
+                top: 40px;
+                left: 0;
+                right: 0;
+                font-weight: 200;
+                font-size: 20px;
+                z-index: 20;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="message">
+            SITE UNDER CONSTRUCTION <br />
+            <a href="mailto: me@hannesrahm.com">me@hannesrahm.com</a>
+            <a href="http://www.twitter.com/kebabskal">@kebabskal</a>
+        </div>
+        <img id="logo" src="/logo.svg" />
+        <canvas id="c" width="100%" height="100%"></canvas>
+    </body>
+</html>
